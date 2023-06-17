@@ -1,0 +1,38 @@
+crear carpetas y entornos virtuales con python
+
+configurar entorno virtual
+
+para configurar algun paquete de python por cmd
+
+py -m pip install modulo_a_instalar
+
+py -m virtualenv  venv
+
+.\venv\Scripts\activate #para activar el entorno virtual
+
+pip install django #instalamos django
+
+django-admin --version #para ver la version
+django-admin startproject +nombre.  #para crear un proyecto 
+
+#ejecutar el modulo
+
+py manage.py runserver #ejecuta el archivo manage y muestra la pagina de inicio
+py manage.py runserver 3000 # para ejecutar desde otro puerto
+
+
+py manage.py startapp +nombreapp  # para crear aplicaciones
+
+py manage.py migrate #ejecuta la migracion de sqlite donde crea tablas para trabajar la base de datos
+
+py manage.py makemigrations myapp # realiza las migraciones de la base de datos a la app
+
+py manage.py shell # para manipular python desde la consola, y poder manipular la base de datos
+
+
+leer jinja2 para la sintaxis del html ya que es un motor de plantillas
+
+
+
+
+
